@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import dayjs from 'dayjs';
 import localizedFormat from 'dayjs/plugin/localizedFormat';
-import { Investment, getInvestments } from '@/utils';
+import { Investment } from '@/utils/types';
+import { getInvestments } from '@/utils';
 import Banner from '@/components/Banner';
 import Header from '@/components/Header';
 import Section from '@/components/Section';

@@ -1,8 +1,4 @@
-export interface Investment {
-  fund: string;
-  amount: number;
-  timestamp: number;
-}
+import { Investment } from './types';
 
 export async function invest(fund: string, amount: number) {
   const newInvestment = { fund, amount, timestamp: Date.now() };

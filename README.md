@@ -18,6 +18,8 @@ I copied the styling of the Cushon website as close as I could whilst still usin
 
 The investments are stored in local storage for simplicity.
 
+I only included unit tests for the utility functions to demonstrate some testing.
+
 ## Any assumptions you have made in the solution you have presented
 I assumed the web app would only be used on laptops and desktops. The styling might not look good on tablets and mobile devices.
 
