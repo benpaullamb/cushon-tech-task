@@ -7,9 +7,11 @@ https://cushon-tech-task.vercel.app/
 ## What you have done and why
 I created a web app that allows the user to select a fund, enter an amount to invest, and save their investment. They can then view their investments on the "My Investments" page. 
 
-I used Next.js, TypeScript, and Tailwind CSS. 
+Built with Next.js, TypeScript, Tailwind CSS, and Jest. 
 
-Deployed to Vercel.
+Deployed to Vercel. 
+
+Included unit tests for the utility functions.
 
 I chose these tools because 1) I am familiar with them and 2) they're modern and popular. This allowed me to create this web app quite quickly.
 
@@ -17,8 +19,6 @@ I chose these tools because 1) I am familiar with them and 2) they're modern and
 I copied the styling of the Cushon website as close as I could whilst still using the predefined classes of Tailwind. 
 
 The investments are stored in local storage for simplicity.
-
-I only included unit tests for the utility functions to demonstrate some testing.
 
 ## Any assumptions you have made in the solution you have presented
 I assumed the web app would only be used on laptops and desktops. The styling might not look good on tablets and mobile devices.
